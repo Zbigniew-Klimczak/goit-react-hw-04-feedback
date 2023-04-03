@@ -1,0 +1,33 @@
+.section {
+  padding: 40px;
+}
+.feedback {
+  font-size: 30px;
+}
+.statistics {
+  font-size: 30px;
+}
+.statElem {
+  font-weight: 500;
+  font-size: 18px;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.button {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: rgb(178, 189, 200);
+  border-radius: 10px;
+  transform: scale(1);
+}
+.button:hover,
+.button:focus {
+  transform: scale(1.2);
+}
+.notify {
+  font-weight: 500;
+  font-size: 18px;
+}
